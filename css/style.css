@@ -1,0 +1,118 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F7FA;
+    font-family: "Inter", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #18191F;
+}
+
+.header_all {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login {
+    color: #4CAF4F;
+}
+
+.header_logo {
+    padding-right: 160px;
+}
+
+.header_item {
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+    margin-right: 145px;
+}
+
+.header_button {
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #4CAF4F;
+    border: #4CAF4F;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 34px;
+}
+
+.header_button:hover {
+    background-color: #78be7b;
+}
+
+
+.header_mini_item {
+}
+
+.lessons_flex {
+    display: flex;
+    padding-top: 165px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.lessons_all {
+    width: 657px;
+}
+
+.lessons_text {
+    font-size: 16px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+
+
+.lessons_title {
+    font-size: 64px;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+}
+
+
+.les {
+    color: #4CAF4F;
+}
+
+
+.register {
+    width: 128px;
+    height: 52px;
+    background-color: #4CAF4F;
+    border: #4CAF4F;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.register:hover {
+    background-color: #78be7b;
+}
+
+
+.krugi {
+    margin-top: 135px;
+    margin-left: 50%;
+}
